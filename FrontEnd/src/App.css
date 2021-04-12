@@ -1,0 +1,56 @@
+.card {
+  width: 800px;
+  height: 500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.imgMain {
+  height: 200px;
+  width: 400px;
+  width: auto;
+  margin-right: 10px;
+}
+
+#btnSubmit {
+  background-color: #0084ff;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+#empty {
+  display: none;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(200px);
+  }
+}
+
+#alertt {
+  margin-top: 25px;
+  margin-right: 10px;
+}
+
+#scanner {
+  width: 370px;
+  height: 4px;
+  background-color: #fbff00;
+  box-shadow: -2px 7px 301px 41px rgba(253,255,142,0.75);
+-webkit-box-shadow: -2px 7px 301px 41px rgba(253,255,142,0.75);
+-moz-box-shadow: -2px 7px 301px 41px rgba(253,255,142,0.75);
+  animation: App-logo-spin infinite 1s linear;
+}
+
+form {
+  margin-top: 25px;
+}
